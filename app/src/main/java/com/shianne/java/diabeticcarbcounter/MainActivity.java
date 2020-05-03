@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Intent intent = new Intent(this, CalculationListActivity.class);
+        Intent intent = new Intent(this, CalculationHistoryActivity.class);
         startActivity(intent);
         finish();
         }
