@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Diabetic Carb Counter</string>
+    <!-- Splash Screen -->
+    <string name="title_splash_screen">DIABETIC CARBS COUNTER</string>
+    <!-- Calculation History -->
+    <string name="title_activity_calculation_history">Calculation History</string>
+    <!-- Calculation Process -->
+    <string name="title_activity_current_insulin">Current Insulin</string>
+    <string name="title_activity_gross_insulin">Gross Insulin</string>
+    <string name="title_activity_net_insulin">Net Insulin</string>
+    <string name="title_activity_final_calculation">Final Calculation</string>
+    <!-- Calculation Details -->
+    <string name="title_activity_calculation_details">Calculation Details</string>
+    <!-- Settings -->
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="calculation_history_final_units_label">Final Units</string>
+    <string name="calculation_history_correction_units_label">Correction Units</string>
+    <string name="calculation_history_gross_units_label">Gross Units</string>
+    <string name="calculation_history_date_created_label">Date Created</string>
+
 </resources>

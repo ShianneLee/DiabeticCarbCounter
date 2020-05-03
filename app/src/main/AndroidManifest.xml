@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.shianne.java.diabeticcarbcounter">
+        package="com.shianne.java.diabeticcarbcounter">
 
     <application
             android:allowBackup="false"
@@ -9,18 +9,22 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
-                  android:theme="@style/SplashTheme">
+        <activity
+                android:name=".CalculationHistoryActivity"
+                android:label="@string/title_activity_calculation_history"
+                android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
-        <activity android:name=".CalculationListActivity">
-                <intent-filter>
-                    <action android:name="android.intent.action.VIEW" />
-                </intent-filter>
+        <activity
+                android:name=".MainActivity"
+                android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
